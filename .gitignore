@@ -1,0 +1,47 @@
+api_medicos/env
+api_medicos/api/MySecrets.py
+api_medicos/api/__pycache__
+# Miscellaneous
+medicos/*.class
+medicos/*.log
+medicos/*.pyc
+medicos/*.swp
+medicos/.DS_Store
+medicos/.atom/
+medicos/.buildlog/
+medicos/.history
+medicos/.svn/
+medicos/migrate_working_dir/
+
+# IntelliJ related
+medicos/*.iml
+medicos/*.ipr
+medicos/*.iws
+medicos/.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+medicos/**/doc/api/
+medicos/**/ios/Flutter/.last_build_id
+medicos/.dart_tool/
+medicos/.flutter-plugins
+medicos/.flutter-plugins-dependencies
+medicos/.packages
+medicos/.pub-cache/
+medicos/.pub/
+medicos//build/
+
+# Symbolication related
+medicos/app.*.symbols
+
+# Obfuscation related
+medicos/app.*.map.json
+
+# Android Studio will place build artifacts here
+medicos//android/app/debug
+medicos//android/app/profile
+medicos//android/app/release
